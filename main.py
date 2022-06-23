@@ -30,7 +30,7 @@ class Perceptron(object):
         return np.where(self.net_input(X) >= 0.0, 1, -1)
 
 
-# DATASET IMPLEMENTATION  (bkz. ENM440_2)
+# DATASET IMPLEMENTATION
 
 df = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data', header=None)
 
